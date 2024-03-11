@@ -12,7 +12,7 @@ class Visitor(NodeVisitor):
 
 if __name__=="__main__":
     if len(argv) != 2:
-        print("Necesito el parcial para corregir! Ayuda: python3 sort.py parcial_a_corregir.py")
+        print("Necesito el parcial para corregir! Ayuda: python3 detector.py parcial_a_corregir.py")
         exit(1)
 
     with open(argv[1], "r") as archivo:
