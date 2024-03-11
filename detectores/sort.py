@@ -2,7 +2,7 @@ from ast import NodeVisitor, Attribute, parse
 from sys import argv, exit
 
 
-class SortDetector(NodeVisitor):
+class Visitor(NodeVisitor):
     def visit_Call(self, node):
         if isinstance(node.func, Attribute) and node.func.attr == "sort":
             print("Advertencia: Se esta utilizando el metodo sort()")
@@ -17,5 +17,5 @@ if __name__=="__main__":
         codigo = archivo.read()
 
         tree = parse(codigo)
-        sort_detector = SortDetector()
-        sort_detector.visit(tree)
+        visitor = Visitor()
+        visitor.visit(tree)
