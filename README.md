@@ -1,4 +1,9 @@
 Análisis estático del código entregado por los alumnos.
 
-Funciones a implementar:
-enumerate, zip, count, remove, index, reversed, entre otras
+---------------------------------------------------
+
+Se puede modificar la lista para que controle más/menos funciones
+
+Para usarlo correr el comando:
+
+python3 path_a_sort.py path_al_parcial.py
