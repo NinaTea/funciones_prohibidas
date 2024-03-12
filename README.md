@@ -1,6 +1,9 @@
 Análisis estático del código entregado por los alumnos.
 
 ---------------------------------------------------
+Inconvenientes actuales
+Hay que correr detector por detector a mano
+--------------------------------------------------
 
 Se puede modificar la lista para que controle más/menos funciones
 
